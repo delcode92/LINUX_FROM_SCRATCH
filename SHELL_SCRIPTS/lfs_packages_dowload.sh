@@ -1,8 +1,10 @@
 #!/bin/bash
 
 # Create a directory for the downloads
-mkdir -p lfs-packages
-cd lfs-packages
+mkdir -p sources
+mkdir -p tools 
+
+cd sources
 
 # Function to download a file
 download() {
